@@ -8,7 +8,7 @@ ENV PYTHONUNBUFFERED 1
 RUN pip install --upgrade pip
 
 # Install the necessary python libraries for plotting
-RUN pip install pandas plotly numpy seaborn matplotlib
+RUN pip install pandas plotly numpy seaborn matplotlib kaleido
 
 # Create a working directory
 WORKDIR /app
