@@ -22,6 +22,9 @@ RUN ./configure && \
     make && \
     make install
 
+# Copy esl-* programs to /usr/local/bin
+RUN cp easel/miniapps/esl-* /usr/local/bin/
+
 # Set the working directory back to root
 WORKDIR /
 
@@ -29,4 +32,5 @@ WORKDIR /
 RUN rm -rf hmmer-${HMMER_VERSION}
 
 # Test the installation
-RUN which hmmsearch
+RUN which hmmsearch && \
+    which esl-alimanip
