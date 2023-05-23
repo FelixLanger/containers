@@ -2,8 +2,10 @@ name: BUILD HMMER CONTAINER
 
 on:
   push:
-    branches: [ main ]
-
+    paths:
+    - 'HMMER/**'
+    branches:
+    - main
 jobs:
   push_to_registry:
     name: Push Docker image to Docker Hub

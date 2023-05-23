@@ -18,9 +18,10 @@ def create_directory_and_workflow():
 
 on:
   push:
+    paths:
+    - '{tool_name}/**'
     branches:
     - main
-
 jobs:
   push_to_registry:
     name: Push Docker image to Docker Hub
