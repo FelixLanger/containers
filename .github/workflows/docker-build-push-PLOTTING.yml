@@ -2,6 +2,8 @@ name: BUILD PLOTTING CONTAINER
 
 on:
   push:
+    paths:
+    - 'plotting/**'
     branches:
     - main
 
