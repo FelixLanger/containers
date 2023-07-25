@@ -30,8 +30,8 @@
 
 ### 📚 Usage
 
-Run the ``./new_container.py`` command. You will be prompted to name your container.
-After this, you'll find a directory that includes an empty Dockerfile.
-Fill the Dockerfile with your Docker recipe.
-Once you're finished, use ``git add`` for the container directory and the .github directory, then ``git commit`` and ``git push`` it to GitHub.
+Run the ``./new_container.py`` command. You will be prompted to name your container.  
+After this, you'll find a directory that includes an empty Dockerfile.  
+Fill the Dockerfile with your Docker recipe.  
+Once you're finished, use ``git add`` for the container directory and the .github directory, then ``git commit`` and ``git push`` it to GitHub.  
 Your container will now be built on GitHub and pushed to your DockerHub once it's finished. 🎉
