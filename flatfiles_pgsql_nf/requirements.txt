@@ -1,5 +1,5 @@
 biopython==1.79
-numpy==1.19.5
+numpy==1.22.0
 orjson==3.6.1
 pandas==1.1.5
 polars==0.12.5
